@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%; /* 1rem == 10px */
+}
+    
+body {
+    font-size: 2rem; /* 16px en lugar de 1em */
+    line-height: 1.8rem; /* 14px en lugar de 1.4em */
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+@media screen and (min-width: 20em) {
+    body {
+        font-size: calc(1.6rem + (1.3125 - 1.6) * ((100vw - 20em) / (80 - 20)));
+        line-height: calc(1.4rem + (1.8 - 1.4) * ((100vw - 20em) / (80 - 20)));
+    }
+}
+
+@media (min-width: 80em) {
+    body {
+        font-size: 1.6rem; /* Tamaño predeterminado de 16px */
+        line-height: 1.8rem; /* 18px en lugar de 1.8em */
+    }
+}
+
+@supports (font-size-adjust: 1) {
+    article {
+        font-size-adjust: 0.5;
+    }
+}
+
+p {
+    line-height: calc(1ex / 0.32);
+}
+
+article h1 {
+    font-size: 2.5em;
+    line-height: calc(1ex / 0.42);
+    margin: calc(1ex / 0.42) 0;
+}
+
+article h2 {
+    font-size: 2em;
+    line-height: calc(1ex / 0.42);
+    margin: calc(1ex / 0.42) 0;
+}
+
+article h3 {
+    font-size: 1.75em;
+    line-height: calc(1ex / 0.38);
+    margin: calc(1ex / 0.38) 0;
+}
+
+article h4 {
+    font-size: 1.5em;
+    line-height: calc(1ex / 0.37);
+    margin: calc(1ex / 0.37) 0;
+}
+
+article p {
+    font-size: 1em;
+    line-height: calc(1ex / 0.32);
+    margin: calc(1ex / 0.32) 0;
+}
+
+p {
+    width: clamp(45ch, 50%, 75ch);
+  }
