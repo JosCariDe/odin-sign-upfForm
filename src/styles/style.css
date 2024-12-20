@@ -37,13 +37,9 @@
 
 form div div {
     font-weight: bolder;
-    width: 32rem;
+    width: 42rem;
     display: flex;
     justify-content: space-between;
-
-}
-
-input {
 
 }
 
@@ -51,4 +47,20 @@ form div {
     display: flex;
 
     gap: 1.2rem;
+}
+
+.container-button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.3rem;
+}
+
+.container-button button {
+    width: 20%;
+    padding: 1.1rem;
+    background-color: #685;
+    color: white;
+    font-weight: 800;
+    border: 0rem solid #685;
+    border-radius: .8rem;
 }
