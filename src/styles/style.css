@@ -36,9 +36,11 @@
 }
 
 form div div {
-    font-weight: bolder;
-    width: 42rem;
+    font-weight: 220;
+    width: 35rem;
     display: flex;
+    flex-direction: column;
+    gap: 0.2rem;    
     justify-content: space-between;
 
 }
@@ -72,6 +74,7 @@ form div {
     width: auto;
     justify-content: start;
     align-items: center;
+    gap: 1rem;
 }
 
 .container-button p {
