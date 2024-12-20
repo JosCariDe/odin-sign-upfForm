@@ -35,9 +35,20 @@
     gap: 1rem;
 }
 
+form div div {
+    font-weight: bolder;
+    width: 32rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input {
+
+}
+
 form div {
     display: flex;
-    
+
     gap: 1.2rem;
-    width: 100rem;
 }
